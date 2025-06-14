@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# Streamlit cache
+.streamlit/config.toml
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database (if you don't want to share local logs)
+data/*.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Misc
+*.log
